@@ -4,6 +4,11 @@ A gem to include Xcharts into Rails 3.1+ Assets Pipeline
 
 ## Installation
 
+this library requires D3, i did'nt want to include it on this gem since
+it may have be installed before, i recommend using the
+[d3_rails](https://github.com/logical42/d3_rails) gem, install it and
+then install this one
+
 Add this line to your application's Gemfile:
 
     gem 'xcharts_rails'
@@ -17,6 +22,11 @@ After that execute:
     $ rails g xcharts:install
 
 This should add `xcharts` to `application.js` and `application.css`
+
+your `application.js` should look like this to `xcharts` to work
+
+    //= require d3.v3
+    //= require xcharts
 
 ## Contributing
 
