@@ -4,7 +4,7 @@ A gem to include Xcharts into Rails 3.1+ Assets Pipeline
 
 ## Installation
 
-this library requires D3, i did'nt want to include it on this gem since
+this library requires D3, i didn't want to include it on this gem since
 it may have be installed before, i recommend using the
 [d3_rails](https://github.com/logical42/d3_rails) gem, install it and
 then install this one
