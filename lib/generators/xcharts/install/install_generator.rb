@@ -1,13 +1,13 @@
 require 'rails/generators'
 
-if ::Rails.version < "4.0" || !::Rails.application.config.assets.enabled
+if ::Rails.version < "4.0.0" || !::Rails.application.config.assets.enabled
   module Xcharts
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
         desc "Warn about low version of ::Rails"
 
         def do_nothing
-          say_status("deprecated", "You need ::Rails >= 4.0 and/or Assets Pipeline turned on.")
+          say_status("deprecated", "You need ::Rails >= 4.0.0 and/or Assets Pipeline turned on.")
           say_status("", "Please update your ::Rails app, and comeback soon!")
         end
       end
