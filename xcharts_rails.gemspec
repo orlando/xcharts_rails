@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = XchartsRails::VERSION
   gem.authors       = ["Orlando Del Aguila"]
   gem.email         = ["orlando@delagui.la"]
-  gem.description   = %q{A gem to include Xcharts into Rails 3.1+ Assets Pipeline}
-  gem.summary       = %q{A gem to include Xcharts into Rails 3.1+ Assets Pipeline}
+  gem.description   = %q{A gem to include Xcharts into Rails 4.0.0}
+  gem.summary       = %q{A gem to include Xcharts into Rails 4.0.0}
   gem.homepage      = "https://github.com/orlando/xcharts_rails"
 
   gem.files         = `git ls-files`.split($/)
